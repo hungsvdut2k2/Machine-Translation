@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 from torch.utils.data import Dataset
-from datasets import load_dataset, load_metric
+from datasets import load_dataset
 
 
 class NMTDataset(Dataset):

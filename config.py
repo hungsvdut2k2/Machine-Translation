@@ -1,3 +1,6 @@
+import torch
+
+
 class BaseConfig:
     def __init__(self, **kwargs):
         for k, v in kwargs.items():
